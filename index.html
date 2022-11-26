@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit-loss</title>
+    <style>
+        body {
+            background-color: rgb(5, 3, 20);
+            color: white;
+            text-align: center;
+        }
+
+        label,
+        div {
+            display: block;
+            margin: 1rem 0;
+        }
+
+        input {
+            padding: 7px;
+        }
+
+        button {
+            padding: 10px 30px;
+            border-radius: 10px;
+            background-color: aqua;
+        }
+
+        footer {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: block;
+            padding: 50px 0;
+            background-color: rgba(139, 109, 204, 0.205);
+        }
+
+        footer a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Stock Calculator</h1>
+        <label for="buying-price">buying Price <input type="number" id="buying-price"></label>
+        <label for="quantity">quantity <input type="number" id="quantity"></label>
+        <label for="selling-price">selling Price <input type="number" id="selling-price"></label>
+        <button id="calculate-btn">Calculate</button>
+        <div id="output-div"></div>
+    </main>
+    <footer>
+        <h3>get in touch with me on linkedin👇👇</h3>
+        <a href="https://www.linkedin.com/in/ashish-kush/">LinkedIn</a>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
